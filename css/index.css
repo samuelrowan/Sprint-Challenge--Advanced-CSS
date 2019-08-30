@@ -182,6 +182,7 @@ p {
 }
 .titleNav nav a:hover {
   color: grey;
+  background-color: none;
 }
 footer {
   color: #22283B;
@@ -234,6 +235,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: black;
+}
+.home .walk .walk-text .btn:hover {
+  color: grey;
+  background-color: darkgrey;
 }
 .home .walk .walk-img {
   width: 46%;

@@ -3,9 +3,12 @@
   display: flex;
   justify-content: center;
 }
-.hover(@background: none){
+.hover(@background: none, @color: grey){
   &:hover{
-    color: grey;
+    color: @color;
     background-color: @background;
   }
+}
+.hide(){
+  display: none;
 }
